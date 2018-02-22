@@ -1,9 +1,8 @@
 Source: drihybris
 Priority: extra
 Maintainer: TheKit <nekit1000@gmail.com>
-Build-Depends: debhelper (>= 9.0.0),
-               autotools-dev,
-               dh-autoreconf,
+Build-Depends: debhelper (>= 10.0.0),
+               pkg-config,
                xserver-xorg-dev,
                libxi-dev,
                xutils-dev
