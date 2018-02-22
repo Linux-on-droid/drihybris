@@ -20,7 +20,6 @@ Description: custom DRI3-based Xorg extension for use with libhybris.
 Package: drihybris-dev
 Section: libdevel
 Architecture: armhf arm64 i386 amd64
-Depends: libandroid-properties1 (= ${binary:Version}),
-         ${misc:Depends}
+Depends: ${misc:Depends}
 Description: Development headers files for drihybris
  Contains the development files.
