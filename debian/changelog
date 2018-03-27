@@ -1,3 +1,9 @@
+drihybris (0.1.0+gemian2) stretch; urgency=medium
+
+  * Bump to build for both stretch and buster
+
+ -- TheKit <nekit1000@gmail.com>  Tue, 27 Mar 2018 22:34:04 +0300
+
 drihybris (0.1.0+gemian1) stretch; urgency=medium
 
   * Branched for gemian
