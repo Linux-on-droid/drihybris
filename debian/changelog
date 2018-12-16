@@ -1,3 +1,9 @@
+drihybris (0.2.0+gemian1) stretch; urgency=medium
+
+  * Support buffer from pixmap request
+
+ -- TheKit <nekit1000@gmail.com>  Sun, 16 Dec 2018 22:45:13 +0100
+
 drihybris (0.1.0+gemian2) stretch; urgency=medium
 
   * Bump to build for both stretch and buster
