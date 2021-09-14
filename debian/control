@@ -2,6 +2,7 @@ Source: drihybris
 Priority: extra
 Maintainer: TheKit <nekit1000@gmail.com>
 Build-Depends: debhelper (>= 10.0.0),
+               dh-exec,
                pkg-config,
                xserver-xorg-dev,
                libxi-dev,
