@@ -51,7 +51,7 @@ drihybris_screen_init(ScreenPtr screen, drihybris_screen_info_ptr info)
     if (!dixRegisterPrivateKey(&drihybris_screen_private_key, PRIVATE_SCREEN, 0))
         return FALSE;
 
-    if (!drihybris_screen_priv(screen)) {
+    if (info && !drihybris_screen_priv(screen)) {
         drihybris_screen_priv_ptr screen_priv = calloc(1, sizeof (drihybris_screen_priv_rec));
         if (!screen_priv)
             return FALSE;
