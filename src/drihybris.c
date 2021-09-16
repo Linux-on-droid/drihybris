@@ -36,6 +36,7 @@ drihybris_close_screen(ScreenPtr screen)
 {
     drihybris_screen_priv_ptr screen_priv = drihybris_screen_priv(screen);
 
+    dixSetPrivate(&screen->devPrivates, &drihybris_screen_private_key, NULL);
     unwrap(screen_priv, screen, CloseScreen);
 
     free(screen_priv);
